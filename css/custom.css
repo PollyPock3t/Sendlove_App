@@ -1,0 +1,163 @@
+/*Video Background*/
+
+#background {
+    position: 			fixed;
+    top: 				50%;
+    left: 				50%;
+    min-width: 			100%;
+    min-height: 		100%;
+    width: 				auto;
+    height: 			auto;
+    z-index: 			-100;
+    -webkit-transform: 	translateX(-50%) translateY(-50%);
+    transform: 			translateX(-50%) translateY(-50%);
+    background: 	 	no-repeat;
+    background-size: 	cover;
+}
+
+/*End of Video*/
+
+
+
+/* Nav*/
+
+.nav{
+    list-style:			none;
+    margin:				auto;
+    padding:			0;
+    position: 			absolute;
+    margin-top:			50px;
+    margin-left:		50px;
+
+
+}
+
+.nav li{
+    display:			inline-block;
+}
+
+.nav a{
+    display:			inline;
+    color: 				white;
+    text-align: 		center;
+    text-decoration: 	none;
+    font-size: 			10pt;
+	font-family: 		'Muli', sans-serif;
+    font-style: 		bold;
+    font-weight: 		600;
+    border:				3px solid white;
+    border-spacing: 	0px;
+    clear: 				both;
+    font-family: 		'Open Sans', sans-serif;
+    letter-spacing: 	2px;
+    margin-right:		-7px;
+
+
+}
+/*end of NAV*/
+
+
+
+
+/*Start of first container styling*/
+
+.container h1 {
+  	color:          white;
+  	font-family:    'Caveat', cursive;
+  	margin-top: 	250px;
+  	text-align: 	center;
+  	font-size:		100px;
+
+}
+
+.container p {
+	color: 			white;
+	font-family: 	'Muli', sans-serif;
+	text-align: 	center;
+	font-size:		15px;
+
+}
+
+/*Sign up BTN*/
+
+.container #signupBtn {
+	background:		#EF7B85;
+	font-family: 	'Muli', sans-serif;
+	border:			none;
+	margin-left: 	200px;
+	margin-top: 	10px;
+
+}
+
+.container span a {
+	font-family: 	'Muli', sans-serif;
+	font-size: 		20px
+	left : 			10px;
+    border:         1px solid red;
+    margin:         0 auto;
+}
+
+.g-signin2{
+    width:          10%; 
+    margin:         0 auto;
+/*    border:         1px solid black;
+*/}
+/*End of Sign up BTN*/
+
+/*End of first container styling*/
+
+
+
+
+/* Start second container */
+
+.container2 {
+    position:       relative;
+    margin-top:     150px;
+    width:          100%;
+}
+
+/* End of second container */
+
+
+
+
+/* start third container */
+
+.container3 {
+    position:       relative;
+    background:     rgba(255, 255, 255, 0.9);
+    margin-top:     -5px;
+}
+
+.container3 h1 {
+    color:          #A7DBD8;
+    font-size:      20px;
+    font-family:    'Montserrat', sans-serif;
+    font-weight:    200px;
+}
+
+.container3 div p {
+    color:          #b6b6b6;
+    font-family:    'Muli', sans-serif;
+    text-align:     left;
+    font-size:      15px;
+
+}
+
+#footer{
+    font-size:      10px;
+    padding:        50px;
+    background:     rgba(255, 255, 255, 0.9);
+    text-align:     right;
+}
+
+
+/* End of third container */
+
+
+
+/*color from http://www.colourlovers.com/palette/92095/Giant_Goldfish pallet*/
+
+
+

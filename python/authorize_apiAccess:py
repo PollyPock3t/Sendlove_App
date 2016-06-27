@@ -1,0 +1,15 @@
+from apiclient.discovery import build
+
+from httplib2 import Http
+from oauth2client import file, client, tools
+
+SCOPE = 
+CLIENT_SECRET = 'json/client_secret.json'
+
+store = file.Storage('storage.json')
+credz=store.het()
+if not credz or credz.invalid
+	flow = client.flow_form_clientsecrets(CLIENT)
+	credz = tools.run(flow, store)
+
+SERVICE = build(API, VERSION, http=credz,authorize ())
