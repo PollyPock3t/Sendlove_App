@@ -20,7 +20,7 @@
         	<source src="videos/Family_Video_4.mp4" type="video/mp4">
     	</video>
 <!--Navigation-->
-<div class="container">
+<div class="container1">
 	<div class="row">
 	<div class="col-md-4">
 	</div>
@@ -39,19 +39,22 @@
 	  </div>
 	</div>
 
+
+
 <!--Homepage Selling Pitch with Sign up & Learn more button-->
 	<div class="row">
 	  <div class="col-md-12">
 	  	<h1>Send Love</h1>
 	  	<p>Leave a leagacy of love beyond your lifetime.</p>
 
-	  	<!-- <div style="width:50%; margin:0 auto"> -->
-	  		<!-- <button id="signupBtn" type="button" class="btn btn-primary btn-lg active">
-  			Sign Up
-			</button>  -->
-		<div class="g-signin2" data-onsuccess="onSignIn"></div>
+	  	<div style="width:50%; margin:0 auto">
+	  		<button id="signupBtn" type="button" class="btn btn-primary btn-lg active">
+  			Get Started
+			</button> 
+		<!-- <div class="g-signin2" data-onsuccess="onSignIn"></div> -->
 
-	<!-- 	<span><a href="About.html"> Learn more </a></span> -->
+		<span><a href="About.html"> Learn more </a></span>
+		</div>
 
 	  </div>
 
