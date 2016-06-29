@@ -29,16 +29,13 @@
 	  <div class="col-md-4">
 	  	<NAV>
 			<ul class="nav">
-				<li><a href="About.html">About</a></li>
+				<li><a href="#About">About</a></li>
 				<li><a href="Signup.html">Sign Up</a></li>
 				<li><a href="Login.html">Log In</a></li></li>
 			</ul>
-		</NAV>
-
-	  
+		</NAV>	  
 	  </div>
 	</div>
-
 
 
 <!--Homepage Selling Pitch with Sign up & Learn more button-->
@@ -48,7 +45,7 @@
 	  	<p>Leave a leagacy of love beyond your lifetime.</p>
 
 	  	<div style="width:50%; margin:0 auto">
-	  		<button id="signupBtn" type="button" class="btn btn-primary btn-lg active">
+	  		<button onclick="location.href='welcome_page.html'" id="signupBtn" type="button" class="btn btn-primary btn-lg active">
   			Get Started
 			</button> 
 		<!-- <div class="g-signin2" data-onsuccess="onSignIn"></div> -->
@@ -76,6 +73,8 @@
 	</div>
 
 	<div class="col-md-6" style="margin-top: 50px;">
+
+	<a id="About"></a>
 		<h1>You can... </h1>
 
 		<p>Send Love beyond your lifetime to all the poeple who have filled your life with beautiful memories. Create short video messages that will mean the world to them and help them cope after you have gone.
