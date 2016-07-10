@@ -150,6 +150,13 @@
 
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 /* End third container */
 
 /* FOOTER  */
@@ -170,7 +177,7 @@
 
 .container4{
     position:       relative;
-    background:     rgba(243,134,48,0.9);
+    background:     rgba(224,228,204,.7);
     width:          50%;
     margin:         auto;
     text-align:     center;
@@ -180,8 +187,8 @@
 }
 
 .container4 h1{
-    padding-top:     50px;
-    font-family:    'Caveat', cursive;
+/*    padding-top:     50px;
+*/    font-family:    'Caveat', cursive;
     font-size:      75px;
     color:          white;
 

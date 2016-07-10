@@ -65,7 +65,7 @@
 	</div>
 	</div>
 </div>
-<!-- About Section -->
+<!-- About Section  option 1-->
 
 <div class="container3">
 	<div class="row">
@@ -75,9 +75,9 @@
 	<div class="col-md-6" style="margin-top: 50px;">
 
 	<a id="About"></a>
-		<h1>You can... </h1>
+		<h1 style="text-align: center;">You can... </h1>
 
-		<p>Send Love beyond your lifetime to all the poeple who have filled your life with beautiful memories. Create short video messages that will mean the world to them and help them cope after you have gone.
+		<p style="text-align: center; margin-top: 20px;">Send Love beyond your lifetime to all the poeple who have filled your life with beautiful memories. Create short video messages that will mean the world to them and help them cope after you have gone.
 		</p>
 
 	</div>
@@ -86,21 +86,53 @@
 	</div>
 
 	<div class="row">
-	<div class="col-md-3">
+	<div class="col-md-4">
 	</div>
 
-	<div class="col-md-8">
-	<h1>How it works? </h1>
-
-	 <p>Create video & set a delivery date. It's that simple!
+	<div style="margin-top: 20px;" class="col-md-4">
+	<h1 style="text-align: center;">How it works: </h1>
 	</p>
 
 	</div>
-	<div class="col-md-1">
+	<div class="col-md-4">
 	</div>	
 	</div>
+	
+
+
+	<div style="margin-top: 10px;" class="row">
+
+		<div class="col-md-4">
+
+			<img class="center" style="margin-top: 30px;" src="images/love_stamp.png">
+
+			<p style="text-align: center; margin-top: 30px;">1. Think of someone you love! </p>
+
+				
+		</div>
+
+		<div class="col-md-4">
+
+			<img class="center" style="margin-top: 30px; " src="images/loveandemail_stamp.png">
+
+			<p style="text-align: center; margin-top: 30px;">2. Create a personalized video message for them.</p>
+				
+		</div>
+
+		<div class="col-md-4">
+
+			<img class="center" style="margin-top: 30px;" src="images/love_received.png">
+
+			<p style="text-align: center; padding-right: 30px; margin-top: 30px;">3. Schedule it for a time in the future when you are gone. Creating a love message that will be cherished forever.   </p>
+				
+		</div>
 	</div>
 </div>
+
+<!-- End About Section  option 2-->
+
+
+
 
 	<div class="row">
 	<div class="col-md-12">
