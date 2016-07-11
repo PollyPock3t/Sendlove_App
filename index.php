@@ -50,7 +50,7 @@
 			</button> 
 		<!-- <div class="g-signin2" data-onsuccess="onSignIn"></div> -->
 
-		<span><a href="About.html"> Learn more </a></span>
+		<span><a href="#About"> Learn more </a></span>
 		</div>
 
 	  </div>
