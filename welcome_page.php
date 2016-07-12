@@ -29,8 +29,8 @@
 <!--Navigation-->
 <div class="container1">
 	<div class="row">
-	<div id="nav"class="col-md-4"><!-- <a href="index.php"> -->
-	<h1 id="nav">Send</h1><h1 id="nav" style="margin-top: -40px;">Love</h1>
+	<div id="nav"class="col-md-4">
+		<a href= "index.php"><h1 id="nav" style="line-height: 120px;">Send Love</h1></a>
 	</div>
 	<div class="col-md-4">
 	</div>
@@ -68,30 +68,20 @@
 
 <div class="row">
 	<div class="col-md-12" >
-	
-	<h1>Welcome!</h1>
 
+	<p style="font-size: 25px; padding: 80px;">Let's start creating some great video emails with lots of love! Please sign in with your google account.</p> 
 
-	<p>Let's start creating some great video emails with lots of love!</p>
-	<p>Please sign in with your google account.</p> 
-
-	<div style="padding-top: 50px;"class="g-signin2" data-onsuccess="onSignIn"></div>
+	<div style="margin-top: -60px;" class="g-signin2" data-onsuccess="onSignIn"></div>
 </div>
 </div>
 </div>
 
-<!-- <?php
+<?php
 	
 	include_once("gmailAPI/signIn.php");
-
-echo "<h1>Hello World</h1>";
-
-
-?> -->
+?>
 
 
-
-<!-- scripts -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>

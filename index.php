@@ -39,13 +39,14 @@
 
 
 <!--Homepage Selling Pitch with Sign up & Learn more button-->
+<div class="container">
 	<div class="row">
 	  <div class="col-md-12">
 	  	<h1>Send Love</h1>
 	  	<p>Leave a leagacy of love beyond your lifetime.</p>
 
 	  	<div style="width:50%; margin:0 auto">
-	  		<button onclick="location.href='welcome_page.html'" id="signupBtn" type="button" class="btn btn-primary btn-lg active">
+	  		<button onclick="location.href='welcome_page.php'" id="signupBtn" type="button" class="btn btn-primary btn-lg active">
   			Get Started
 			</button> 
 		<!-- <div class="g-signin2" data-onsuccess="onSignIn"></div> -->
@@ -65,6 +66,9 @@
 	</div>
 	</div>
 </div>
+
+</div>
+
 <!-- About Section  option 1-->
 
 <div class="container3">
@@ -77,7 +81,7 @@
 	<a id="About"></a>
 		<h1 style="text-align: center;">You can... </h1>
 
-		<p style="text-align: center; margin-top: 20px;">Send Love beyond your lifetime to all the poeple who have filled your life with beautiful memories. Create short video messages that will mean the world to them and help them cope after you have gone.
+		<p style="text-align: center; margin-top: 20px;">Send a message of love beyond your lifetime to the people that matter the most to you. Create short video messages that will mean the world to them and help them cope after you have gone.
 		</p>
 
 	</div>
@@ -106,7 +110,7 @@
 
 			<img class="center" style="margin-top: 30px;" src="images/love_stamp.png">
 
-			<p style="text-align: center; margin-top: 30px;">1. Think of someone you love! </p>
+			<p style="text-align: center; margin-top: 30px;">1. Create a "To Love List" of the people you want to reach out to when you have gone.</p>
 
 				
 		</div>
@@ -115,7 +119,7 @@
 
 			<img class="center" style="margin-top: 30px; " src="images/loveandemail_stamp.png">
 
-			<p style="text-align: center; margin-top: 30px;">2. Create a personalized video message for them.</p>
+			<p style="text-align: center; margin-top: 30px;">2. Next, create personalized video messages for the people on your list.</p>
 				
 		</div>
 
@@ -123,7 +127,7 @@
 
 			<img class="center" style="margin-top: 30px;" src="images/love_received.png">
 
-			<p style="text-align: center; padding-right: 30px; margin-top: 30px;">3. Schedule it for a time in the future when you are gone. Creating a love message that will be cherished forever.   </p>
+			<p style="text-align: center; padding-right: 30px; margin-top: 30px;">3. Lastly, schedule your video message for a time in your loved one's future. When you know they'll need you the most.</p>
 				
 		</div>
 	</div>

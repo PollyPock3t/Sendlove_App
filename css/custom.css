@@ -24,6 +24,7 @@ body {
 
 
 
+
 /* Nav*/
 
 .nav{
@@ -33,6 +34,7 @@ body {
     position: 			absolute;
     margin-top:			50px;
     margin-left:		50px;
+    z-index:            1000;
 
 
 }
@@ -72,7 +74,6 @@ body {
   	margin-top: 	250px;
   	text-align: 	center;
   	font-size:		150px;
-    font-weight:    200px;
 
 }
 
@@ -81,12 +82,13 @@ body {
     font-family:    'Caveat', cursive;
     margin-top:     20px;
     font-size:      150px;
-    font-weight:    200px;
 /*    position:       absolute;
 */  clear:          both;
     height:         150px;
     position:       static;
     margin-bottom:  20px;
+    z-index:        1000;
+
 
 
 }
@@ -105,11 +107,12 @@ body {
 /*Sign up BTN*/
 
 .container1 #signupBtn {
-	background:		#FA6900;
-	font-family: 	'Muli', sans-serif;
-	border:			none;
-	margin-left: 	200px;
-	margin-top: 	10px;
+	background:     #EF7B85;
+/* +  background:     #FA6900;
+*/    font-family:    'Muli', sans-serif;
+    border:         none;
+    margin-left:    200px;
+
 
 }
 
@@ -117,17 +120,21 @@ body {
 	font-family: 	'Muli', sans-serif;
 	font-size: 		20px
 	left : 			80px;
-/*    border:         1px solid red;
-*/   margin:         0 auto;
-     padding-left:   10px;
-     color:          white;
+/*  border:         1px solid red;
+*/  margin:         0 auto;
+*   padding-left:   10px;
+    color:          white;
 }
 
 .g-signin2{
     width:          10%; 
-    margin:         0 auto;
+    display:        block;
+    margin-left:    auto;
+    margin-right:   auto;
+
+
 }
-/*End of Sign up BTN*/
+/*End of Sign up BTN
 
 /*End of first container styling*/
 
@@ -153,10 +160,11 @@ body {
     position:       relative;
     background:     rgba(255, 255, 255, 0.9);
     margin-top:     -5px;
+    padding:        20px;
 }
 
 .container3 h1 {
-    color:          #FA6900;
+    color:          #A7DBD8;
     font-size:      30px;
     font-family:    'Montserrat', sans-serif;
     font-weight:    400px;
@@ -178,6 +186,12 @@ body {
     height:         auto;
 
 }
+
+/*.container3 .col-md-4 {
+    width:          29%;
+
+
+}*/
 
 /* End third container */
 
