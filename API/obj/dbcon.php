@@ -6,8 +6,8 @@ class dbCon{
 
 	private $db;
 	private $dbName 		= 'sendLove';
-	private $username		= 'root';
-	private $password		= 'root';
+	private $username		= 'PaullineMallea';
+	private $password		= 'Pm1051891051';
 	private $host			= 'localhost';
 
 	public function __construct(){

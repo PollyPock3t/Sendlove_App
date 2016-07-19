@@ -1,4 +1,5 @@
 
+<script>
 
 <a href="#" onclick="signOut();">Sign out</a>
 
