@@ -218,7 +218,7 @@ body {
     margin:         auto;
     text-align:     center;
     padding-bottom: 30px;
-    z-index:        -1;
+    z-index:        10000;
 
 
 }
@@ -237,6 +237,26 @@ body {
     font-family:    'Muli', sans-serif;
     text-align:     center;
     font-size:      15px;
+}
+
+.container4 button {
+    display:            inline;
+    color:              white;
+    text-align:         center;
+    text-decoration:    none;
+    font-size:          10pt;
+    font-family:        'Muli', sans-serif;
+    font-style:         bold;
+    font-weight:        600;
+    border:             3px solid white;
+    border-spacing:     0px;
+    clear:              both;
+    font-family:        'Open Sans', sans-serif;
+    letter-spacing:     2px;
+    margin-right:       -7px;
+    width:              120px;
+    height:             50px;
+
 }
 
 /* end third container */
