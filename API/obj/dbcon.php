@@ -23,7 +23,42 @@ class dbCon{
 	// 	echo "test";
 	}
 
-// // select DB connection
+$sql = "INSERT INTO todotasks(taskID, taskName, taskStatus, dateCreated)
+VALUES ('Null', 'task', 'done', 'Null')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+
+};
+
+
+?>
+
+<!-- // return $this->db;
+// 	}
+// 	public function insertRecord( $sql ){
+// 		return $this->db->query( $sql );
+// 	}
+// 	public function fetchRecord( $sql ){
+// 		$r = $this->db->query( $sql );
+// 		$n = $r->num_rows;
+// 		$result = array();
+// 		for( $i = 0; $i < $n; $i++){
+// 			$row = mysqli_fetch_array($r);
+// 			array_push( $result, $row['taskName'] );
+// 		}
+// 		return $result;
+// 	}
+// }
+
+
+
+ // // select DB connection
 // 	public function getDb() {
 // 		return $this->db;
 // 	}
@@ -47,11 +82,5 @@ class dbCon{
 // 		for ($i = 0; $i<count($fields); $i++){$fields[$i]=cleanUp($fields[i]);}
 // 	}
 
-// }
+// }  -->
 
-
-
-}
-
-
-?>
